@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<script src="navBarScript.js"></script>
+<style>
+body {margin:0;}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home">HOME</a></li>
+   <li><a href="#bio">BIO</a></li>
+  <li><a href="#news">TRENDING</a></li>
+  <li><a href="#about">VAULT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="topDropDownMenu()">=</a>
+  </li>
+</ul>
+
+<script>
+function topDropDownMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
