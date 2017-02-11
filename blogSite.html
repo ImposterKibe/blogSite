@@ -5,11 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="stylesheet" type="text/css" href="default.css">
 	<script src="navBarScript.js"></script>
-<style>
-body {margin:0;}
 
-</style>
 </head>
 <body>
 
@@ -23,16 +21,18 @@ body {margin:0;}
   </li>
 </ul>
 
-<script>
-function topDropDownMenu() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+<div id="sociallinks" class="mysociallinks">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeSocialNav()">&times;</a>
+	<a href="https://web.facebook.com/stephen.mwangi.35977">Facebook</a>
+	<a href="https://www.instagram.com/?hl=en">Instagram</a>
+	<a href="https://twitter.com/?lang=en">Twitter</a>
+	<a href="https://www.youtube.com/">Youtube</a>
+</div>
+
+<img src="socialicons.jpeg" id="socialicons" onclick="openSocialNav()">
+</img>
+
+
 
 </body>
 </html>

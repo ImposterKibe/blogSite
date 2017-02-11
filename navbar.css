@@ -1,3 +1,4 @@
+/*Top Menu Navigation Bar*/
 ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
@@ -46,3 +47,43 @@ ul.topnav li a {
   transition: 0.3s;
   font-size: 17px;
 }
+/*Top Menu Navigation Bar*/
+
+/*Social link navigation bar*/
+.mysociallinks{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:50px;
+	left:0;
+	background-color:#111;
+	padding-top:60px;
+	visibility:hidden;
+	transition:0.5s;
+	overflow-x:hidden;
+	}
+.mysociallinks a{
+	padding: 8px 8px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:#818181;
+	display:block;
+	transition:0.3s;
+	}
+.mysociallinks .closebtn{
+	position:absolute;
+	top:0;
+	right:25px;
+	font-size:36px;
+	margin-left:50px;}
+
+.mysociallinks a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+/*Social link navigation bar*/

@@ -8,5 +8,9 @@
 #sociallinks a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
 #sociallinks a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}	
 
-
-
+#socialicons{
+	top:10px;
+	left:0;
+	height:110px;
+	width:50px;
+	}
