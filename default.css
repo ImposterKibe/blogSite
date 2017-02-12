@@ -1,0 +1,16 @@
+#sociallinks{	width:100px;
+		height:800px;
+		background-color:#eeeeee;
+		line-height:30px;
+}
+#sociallinks a:link    {color:#000000; background-color:transparent; text-decoration:none}
+#sociallinks a:visited {color:#000000; background-color:transparent; text-decoration:none}
+#sociallinks a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+#sociallinks a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}	
+
+#socialicons{
+	top:10px;
+	left:0;
+	height:110px;
+	width:50px;
+	}
